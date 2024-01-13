@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emerging Trends</title>
+
+    <style>
+        * {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #title {
+            background-color: rgb(88, 88, 248);
+            color: white;
+            padding: 20px;
+            letter-spacing: 1.5px;
+            line-height: 10px;
+        }
+
+        #trend {
+            padding-left: 40px;
+            font-style: italic;
+            font-size: 25px;
+            border-bottom: 1px solid rgb(88, 88, 248);
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        #content {
+            float: left;
+            width: 40%;
+            padding: 10px;
+        }
+
+        p {
+            font-style: normal;
+            font-size: 18px;
+            line-height: 30px;
+        }
+
+        img[alt~="example"]{
+            width: 600px; 
+            margin: 140px;
+        }
+
+        img[alt~="bento"]{
+            margin-left: 150px;
+            margin-top: 70px;
+        }
+
+        footer {
+            background-color: rgb(88, 88, 248);
+            padding: 20px;
+            font-style: italic;
+            font-size: 25px;
+        }
+
+        img[alt~="github"]{
+            width: 75px;
+            height: 75px;
+            float: right;
+        }
+
+        li {
+            list-style-type: circle;
+        }
+
+        li a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            color: darkblue;
+        }
+
+        #resources a {
+            color: white;
+        }
+
+        #resources a:hover {
+            color: lightblue;
+        }
+
+        @media screen and (max-width:800px) {
+
+            #title {
+                padding: 10px;
+                line-height: 70px;
+            }
+
+            #trend {
+                padding-left: 0px;
+            }
+
+            #content {
+                width: 100%;
+            }
+
+            img[alt~="example"]{
+                width: 100%; 
+                margin: 10px;
+            }
+
+            img[alt~="bento"]{
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <!--    
+        Research the current trends in the web development industry 
+
+        Identify THREE key topics that are becoming more important in the field of web development.  
+            This includes, web design, web development, web applications software, tools and technologies
+            DO NOT TALK ABOUT AI!!!!!!!!!!
+
+            1. Dark Mode - made popular in 2023 by Linear
+                many designers from all over the world were copying this style, including me
+                easy on the eyes, shows great contrast between elements
+                it looks clean and clear
+                more serious tone
+                thing to note, dark mode does not just mean a black background, it is better to use a variety of dark colors 
+                    it is actually better not to use pure black or pure white on a website because it causes eye strain 
+                    using a darker grey or lighter black with help the readability 
+                use of gradients is good with dark mode
+                should give the user the option to switch from dark to light - it is still just a preference
+                should have some kind of automatic way to tell if it is day time(user will use light mode) or if it is night (user will use dark mode)
+
+            2. Vibrant color palettes
+
+            3. 3D Components - no more flat looking sites
+
+            4. Bento Grids
+                Apple control panel is a good example
+                looks very organized, feels modern
+                downside - it can look cluttered and just be a lot going on, don't overwhelm the user!!!!
+                not new, but it is trending more
+                has become more animated
+                easy to use
+
+            5. No-Code Tools***** - self explanitory...
+                NO CODE!!!!!
+                in 2020 the no code market was worth $13.2 billion and is expected to be $45.2 billion in 2025
+                visual programming, building software without writing code!!
+                Framer - AI website builder - feels like Figma
+                Wix Studio
+                Don't need to know how to code so much, just need to have a vision
+                cost effective - usually serveral people working on one project, with no code tools you can do it all - but these tools are collaborative if it is needed
+                faster development time 
+                can build almost anything
+                user-friendly, can be used by people who aren't very tech savvy
+
+            6. Big Text
+    -->
+    <div id="container">
+
+        <div id="title">
+            <h1 style="font-size:80px; padding-left: 20px;">UX UI TRENDS FOR 2024</h1>
+            <h3 style="font-size:25px; padding-left: 20px;"><em>The year of fun.</em></h3>
+        </div><!--close title-->
+        
+    <!--========================== DARK MODE ==================================-->
+        <div id="trend">
+            <div id="content">
+                <h2>DARK MODE</h2>
+                <p>
+                    Dark mode was introduced by Microsoft in 2016, then in 2018 Apple followed the concept (which made it very popular). 
+                    It reduces the light produced by a screen by displaying dark colors, such as a darker colored background with light colored text. 
+                    Using dark mode on a device helps reduce eye strain, while still showing contrast between elements. 
+                    Many designers all over the world, including myself, have started copying this style. 
+                    It gives a clean and clear look, while also seeming to give a more serious tone.
+                </p>
+                <p>
+                    One thing to note as a designer, it is best not to use pure black (and even pure white) when styling a dark mode project. 
+                    It is better to use a darker grey or a lighter black when making content for dark mode. 
+                    This helps readability and reduces the strain on the eyes.
+                    To add something other than just dark solid colors, darker colored gradients have become popular to pair with dark mode. 
+                    It is also a good idea to give the user the option to switch from dark to light modes; it is more of a preference after all. 
+                </p>
+                <p>
+                    <ul>
+                        <li><a href="https://linear.app/">Linear</a></li>
+                        <li><a href="https://github.com/">Github</a></li>
+                        <li><a href="https://evervault.com/">Evervault</a></li>
+                    </ul>
+                </p>
+            </div>
+
+            <div id="content">
+                <img src="darkMode.png" alt="example of a dark mode website">
+            </div>
+        </div><!--close Dark Mode-->
+
+    <!--========================== BENTO GRID ==================================-->
+        <div id="trend">
+            <div id="content">
+                <h2>BENTO GRIDS</h2>
+                <p>
+                    Inspired by Apple, bento grids are grid style layout of boxes containing the content of a website.
+                    These grids gave a little more life to a website that is mostly informational.
+                    Bento grid can make websites look organized with a modern feel.
+                    They are also easy to use and create. 
+                    The downside is that they can easily become cluttered which can overwhelm the user.
+                    The concept of the bento grid is not new, but it does seem to be a trend for 2024.
+                    In the more recent days, the bento grid is being made to be more animated and not seeming so flat.
+                </p>
+                <p>
+                    <ul>
+                        <li><a href="https://bentogrids.com/">bentogrids</a></li>
+                        <li><a href="https://linear.app/">Linear</a></li>
+                        <li>Apple control panel</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div id="content">
+                <img src="bentoGrid.png" alt="bento grid">
+            </div>
+
+        </div><!--close Bento Grids-->
+
+    <!--========================== NO-CODE TOOLS ==================================-->
+        <div id="trend">
+            <div id="content">
+                <h2>NO-CODE TOOLS</h2>
+                    <p>
+                        It seems self-explanatory why no-code tools would be on this list. 
+                        No-code design tools allow us to build software without writing code.
+                        The creator does not need to know how to code much in order to build a website on tools like these, it is more about the vision.
+                        Using these no-code tools can be cost effective because it usually takes more than one person to build an entire website.
+                        With a tool like this, one person can do the whole thing. 
+                        (There are still options to make it a collaborative project.)
+                        It will also help with development time and they are usually very user user-friendly.
+                        In 2020 the no-code market was worth $13.2 billion and is expected to reach $45.2 billion by the year 2025.
+                    </p>
+                    <p>
+                        <ul>
+                            <li><a href="https://www.framer.com/?utm_source=google&utm_medium=adwords&utm_campaign=Brand-Search-Framer_Standard&gad_source=1&gclid=CjwKCAiA44OtBhAOEiwAj4gpObFc5bLH8s52q0_fhIrBaB4nO9b2Jbc0J7Z7yjuQ3xtKwql5OTC3hBoCoEMQAvD_BwE">Framer</a></li>
+                            <li><a href="https://www.wix.com/">WIX</a></li>
+                        </ul>
+                    </p>
+            </div>
+
+            <div id="content">
+                <img src="wix.png" alt="example screenshot of WIX website">
+            </div>
+            
+        </div><!--close No code tools-->
+
+        <footer>
+            <a href="https://github.com/darrianpeck"><img src="iconmonstr-github-3-240.png" alt="github icon"></a>
+
+            <h2>RESOURCES</h2>
+            <div id="resources">
+                <p><a href="https://www.youtube.com/watch?v=wcyuEXYINEY">What's coming next for web design in 2024? (6 New Trends)</a></p>
+                <p><a href="https://www.youtube.com/watch?v=6jqvG3SZyv0">Web & UI Design Trends for 2024</a></p>
+                <p><a href="https://en.wikipedia.org/wiki/Light-on-dark_color_scheme#History">History of Dark Mode</a></p>
+                <p><a href="https://bootcamp.uxdesign.cc/web-design-trend-bento-box-95814d99ac62#:~:text=How%20it%20all%20started,of%20visual%20and%20typography%20application.">Web design trend: bento box</a></p>
+                <p><a href="https://www.google.com/search?sca_esv=597851563&sxsrf=ACQVn0_xj13ni1rriQIUXDoin7Ezg5-c0A:1705083140608&q=why+are+no+code+tools+popular&tbm=vid&source=lnms&sa=X&ved=2ahUKEwj39KHXudiDAxVUlYkEHQMGD24Q0pQJegQICxAB&biw=1380&bih=734&dpr=2#fpstate=ive&vld=cid:b48d5bbf,vid:WW_eMasM7PE,st:0">10 Reasons Why No-Code Is The Future of App Development</a></p>
+            </div>
+        </footer>
+
+    </div><!--close container-->
+    
+</body>
+</html>
